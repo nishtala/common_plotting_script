@@ -11,6 +11,7 @@ import matplotlib.pyplot as plt
 def setup_fonts():
     plt.style.use('seaborn-paper')
     plt.style.context("seaborn-colorblind")
+
     linewidth = 0.5
     mpl.use("pgf")
 
@@ -40,7 +41,9 @@ def setup_fonts():
             "axes.spines.top" : False,
             "savefig.dpi" : 500,
             "savefig.pad_inches" : 1e-4,
-            "savefig.bbox" : "tight"
+            "savefig.bbox" : "tight",
+            "legend.framealpha": 0,
+            "legend.fancybox": True
     }
 
     mpl.rcParams.update(nice_fonts)
