@@ -39,6 +39,7 @@ def setup_fonts(fraction=1):
             "pgf.preamble": [
                 r"\usepackage[utf8x]{inputenc}",
                 r"\usepackage[T1]{fontenc}",
+                r'\usepackage[scientific-notation=true]{siunitx}',
                 r"\renewcommand{\rmdefault}{ptm}",
                 r"\AtBeginDocument{\fontdimen2\font=2.8pt}",
                 r"\AtBeginDocument{\fontdimen3\font=1.2pt}",
