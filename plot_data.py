@@ -20,7 +20,7 @@ ax.legend(loc='upper center', ncol=1, bbox_to_anchor=(0.25, 1.))
 plt.xticks(np.arange(3), ('1','2','3'))
 
 ax.set_ylabel('Example $y$-axis')
-ax.set_xlabel('Example $x$-axis')
+ax.set_xlabel('Example $x$-axis (\SI{}{\milli\second})')
 
 fig.tight_layout()
 file_name = 'test.pdf'
