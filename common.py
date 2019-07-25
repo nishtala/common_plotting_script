@@ -10,6 +10,7 @@ import matplotlib.pyplot as plt
 
 def setup_fonts():
     plt.style.use('seaborn-paper')
+    plt.style.context("seaborn-colorblind")
     linewidth = 0.5
     mpl.use("pgf")
 
