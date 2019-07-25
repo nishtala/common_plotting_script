@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 # Rajiv Nishtala
-# 25-07-2019. This is me sick and tired of playing with font sizes periodically for publications.
+# 25-07-2019.
+#This is me sick and tired of playing with font sizes periodically for publications.
 
 # Modified after Milans code and the link below.
 #https://jwalton.info/Embed-Publication-Matplotlib-Latex/
