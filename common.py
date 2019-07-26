@@ -101,8 +101,6 @@ def set_size(width=width, fraction=1, subplot=[1, 1]):
     # Golden ratio to set aesthetic figure height
     golden_ratio = (5**.5 - 1) / 2
 
-    # Figure width in inches
-    fig_width_in = fig_width_pt * inches_per_pt
     # Figure height in inches
     fig_height_in = fig_width_in * golden_ratio * (subplot[0] / subplot[1])
 
